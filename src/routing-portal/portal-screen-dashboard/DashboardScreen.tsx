@@ -1,26 +1,22 @@
 import React from "react"
-import { Typography, Button } from "@mui/material"
+import { Typography } from "@mui/material"
 
 
 // Application Screen || Define Imports
 // =================================================================================================
 // =================================================================================================
-import "./LoginScreen.css"
+import "./DashboardScreen.css"
 
 
 // Application Screen || Define Exports
 // =================================================================================================
 // =================================================================================================
-export const AuthLoginScreen = () => {
+export const PortalDashboardScreen = () => {
   return (
     <div>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-       Login Screen
+       Dashboard Screen
       </Typography>
-
-      <Button variant="contained">
-        Login
-      </Button>
     </div>
   )
 }

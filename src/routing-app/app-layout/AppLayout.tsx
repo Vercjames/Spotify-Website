@@ -18,11 +18,6 @@ export const AppLayout = () => {
       <AppNavHeader />
 
       <Outlet />
-
-      <footer>
-        HEY ITS OUR FOOTER!!!!
-      </footer>
-
     </div>
   )
 }
